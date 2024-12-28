@@ -1,0 +1,351 @@
+.header{
+    width:100%;
+    height:60px;
+    background-color: blue;
+    
+
+}
+.logo{
+    width: 50px;
+    height:50px;
+    padding-top: 5px;
+    padding-left: 80px;
+
+}
+.header .search-txt{
+    width: 30%;
+    height: 50px;
+    background-color: bisque;
+    padding: 10px;
+    border:2px solid rgb(154, 154, 194);
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 30px;
+   
+}
+.header .logo1{
+    width: 30%;
+    height: 60%;
+    text-align: center;
+    padding-left: 180px;
+
+}
+.account-info{
+    width: 40%;
+    height: 40%;
+    background-color:rgb(215, 243, 243);
+    border: solid 2px black;
+    margin-right: 25px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    padding-left: 5px;
+    
+
+
+}
+.account-info .name{
+    
+    border-radius: 100%;
+    height:75px;
+    width:70px;
+    font-size: 45px;
+    background-color: rgb(238, 63, 39);
+    color: white;
+    text-align: center;
+    
+}
+
+.account-info .contact{
+    display:block;
+    justify-content: center;
+    padding-right: 5px;
+
+
+}
+
+.account-info .label{
+    
+    
+    font-size: 30px;
+    padding-left: 18%;
+    top: -80px;
+    position: relative;
+
+    
+}
+
+.account-info .date{
+    
+    
+    font-size: 20px;
+    padding-left: 18%;
+    top: -70px;
+    position: relative;
+
+}
+.account-info .mobile{
+    padding-right: 5px;
+}
+.account-info .email{
+    padding-right: 5px;
+}
+.account-info .customer{
+    padding-right: 5px;
+}
+.account-info .deleivery{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+    
+}
+
+.dashboard .tab{
+    display: block;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(123, 123, 212);
+    text-align: center;
+    padding-top: 5px;
+
+    
+}
+
+
+.dashboard .tab2{
+    display: block;
+    font-size: 25px;
+    color: blue;
+    text-align: center;
+    padding-top: 5px;
+
+}
+.account-info .name1{
+    top: -30px;
+    position: relative;
+}
+.account-info .mobile{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+.account-info .email{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+.account-info .customer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+.account-info .deleivery{
+    display: block;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+/* .wallet-Balance .deleivery-instructions{
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+.wallet-Balance{
+    width: 40%;
+    
+    background-color:rgb(215, 243, 243);
+    border: solid 2px rgb(79, 79, 223);
+    margin-right: 20px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+
+
+    
+}
+.wallet-Balance .current-amount{
+    display: block;
+    justify-content: space-between;
+    padding-left: 10px;
+    background-color: rgb(72, 228, 228);
+    margin-left: 40px;
+    padding-top: 20px;
+    margin-top: 20px;
+    
+    width:70%;
+    height: 20%;
+    padding-right: 10px;
+    
+
+    
+
+    
+
+} 
+/* .current-amount .wallet{
+    display:block;
+    text-align: start;
+} */
+.current-amount .see{
+    padding-right: 20px;
+
+}
+.wallet-Balance .price{
+    padding-right: 20px;
+}
+.wallet-Balance .current-amount .recharges{
+    padding-right: 20px;
+
+}
+
+.wallet-Balance .history-amount{
+    border: solid 2px blue;
+    height:120%;
+    width: 90%;
+    background-color: rgb(219, 236, 230);
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    align-items: center;
+
+    
+    
+}
+.history-amount .current-amount{
+    padding-right: 30px;
+    padding-left: 2px;
+}
+.history-amount .current-recharge{
+    padding-right: 5px;
+}
+.history-amount .recharge-date{
+    padding-right: 5px;
+}
+.history-amount .recharge-date2{
+    padding-right: 5px;
+}
+.history-amount .recharge-date3{
+    padding-right: 5px;
+}
+.wallet-Balance .wallet{
+    margin-left: 60px;
+}
+.wallet-Balance .current-recharge{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-top: 20px;
+    margin-left: 50px;
+
+
+}
+.wallet-Balance .recharge-date{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-top: 20px;
+    
+    margin-left: 50px;
+}
+.wallet-Balance .recharge-date2{
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 50px;
+}
+.wallet-Balance .recharge-date3{
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 50px;
+} 
+.deleivery-instructions .ring{
+    padding-left: 5px;
+    font-size: 30x;
+}
+.wallet-Balance .deleivery-instructions{
+    border: solid 2px;
+    height:230px;
+    width: 40%;
+    background-color: rgb(186, 228, 186);
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 5px;
+    border-radius: 5px solid;
+}
+.update{
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: brown;
+    color: aliceblue;
+    width: 130px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+.Transaction{
+    width: 38%;
+    height: 50%;
+    border: 1px solid black;
+    background-color:rgb(215, 243, 243);
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 30%;
+    border-radius: 5px;
+    padding-left: 30px;
+    margin-left: 19%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.Transaction .recharge-wallet{
+    display: block;
+    justify-content: space-between;
+    
+    
+    
+}
+.recharge-wallet .amount{
+    display: flex;
+}
+.Transaction .receive-bag{
+    padding-top: 30px;
+    display: block;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.Transaction .Partial-refund{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+  .Transaction .Full-refund{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.Transaction .Received-cashback{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.Transaction .Paid-order{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+ 
+ 
+
+
+
